@@ -1,0 +1,17 @@
+{
+    "kick_start_section": {
+        "heading": "Kickstart your project with Block",
+        "description": "Block build with a modular web design concept will easily kickstart your project, and build website & marketing site faster.",
+        "cta": {
+            "purchase": "Purchase Template",
+            "demo": "Demos"
+        }
+    },
+    "news_letter_section": {
+        "heading": "Subscribe to our newsletter",
+        "description": "Enjoy using Block Template and stay tuned for the latest updates and news.",
+        "cta": {
+            "subscribe": "Subscribe"
+        }
+    }
+}
