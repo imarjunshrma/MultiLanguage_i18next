@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { useTranslation } from 'react-i18next';
+import { NavLink } from 'react-router-dom';
 const lngOptions = [
     {
         val: "",
@@ -35,8 +36,12 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#link">Link</Nav.Link>
+                        <NavLink to="/" className="nav-link">
+                            Home
+                        </NavLink>
+                        <NavLink to="/about" className="nav-link">
+                            About
+                        </NavLink>
                         <select aria-label="Default select example" className='ms-2' onChange={handleLanguageChange}>
                             {
                                 lngOptions.map(option => (
